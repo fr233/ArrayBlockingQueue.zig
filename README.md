@@ -2,10 +2,10 @@
 ArrayBlockingQueue for zig lang
 
 # API
-*`ArrayBlockingQueue(comptime T: type) type`
+* `ArrayBlockingQueue(comptime T: type) type`
 generic type.
 
-* `bq.init(allocator: *std.mem.Allocator, capacity: anytype) Self`
+* `init(allocator: *std.mem.Allocator, capacity: anytype) Self`
 construct an ArrayBlockingQueue object.
 
 * `put(self: *Self, item: T) void`
